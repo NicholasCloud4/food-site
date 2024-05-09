@@ -18,15 +18,48 @@ const Feature = () => {
       <Dash />
 
       {/* CARDS */}
-      <div className="card card-compact w-96 bg-base-100 shadow-xl">
-        <figure>
-          <Image src={"/grid__1.png"} height={300} width={300} alt="photo" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+      <div className="flex flex-wrap justify-center gap-40 pt-8">
+        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+          <figure>
+            <Image src={"/grid__1.png"} height={300} width={600} alt="photo" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Shrimp Salad</h2>
+            <p>
+              Savor the refreshing blend of succulent shrimp, crisp greens,
+              vibrant vegetables, and zesty dressing in our signature shrimp
+              salad.
+            </p>
+          </div>
+        </div>
+
+        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+          <figure>
+            <Image src={"/grid__2.png"} height={300} width={600} alt="photo" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Baked Apples</h2>
+            <p>
+              Baked apples are a delectable dessert that epitomizes comfort and
+              simplicity. Firm, tart apples are cored and filled with a sweet
+              and aromatic mixture, often comprising brown sugar, cinnamon, and
+              butter, before being baked until tender and caramelized.
+            </p>
+          </div>
+        </div>
+
+        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+          <figure>
+            <Image src={"/grid__3.png"} height={300} width={600} alt="photo" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Cherries Chicken</h2>
+            <p>
+              succulent chicken pieces are typically pan-seared or roasted to
+              perfection, then bathed in a luscious sauce made from fresh or
+              dried cherries, along with complementary ingredients such as
+              balsamic vinegar, red wine, or honey.
+            </p>
           </div>
         </div>
       </div>
