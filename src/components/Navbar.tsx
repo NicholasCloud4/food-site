@@ -4,7 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
   return (
-    <div className="container pt-4">
+    <div className="container pt-4 bg-neutral">
       <div className="flex justify-center items-center">
         <Image
           src={"/logo.png"}
@@ -13,7 +13,7 @@ const Navbar = () => {
           alt="logo"
           className="mr-4"
         />
-        <ul className="md:flex hidden gap-8 items-center font-bold text-[14px] text-black">
+        <ul className="md:flex hidden gap-8 items-center font-bold text-[14px] text-white">
           <li>Home</li>
           <li>About</li>
           <li>Food</li>

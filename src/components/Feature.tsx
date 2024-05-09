@@ -4,18 +4,19 @@ import Image from "next/image";
 
 const Feature = () => {
   return (
-    <div className="container pt-40">
-      <h2 className="text-6xl font-bold">Our</h2>
-      <h2 className="text-6xl font-bold pt-2">
-        Highlighted <span className="text-accent">Dishes</span>
-      </h2>
-
-      <p className="max-w-[550px] pt-10 text-gray-700">
-        Indulge in our featured food, where tantalizing flavors meet exquisite
-        presentation to create a culinary experience like no other.
-      </p>
-
-      <Dash />
+    <div className="container pt-0">
+      <div className="text-center align-middle">
+        <h2 className="text-6xl font-bold pt-2">
+          Highlighted <span className="text-accent">Dishes</span>
+        </h2>
+        <p className="pt-10 text-gray-700 ">
+          Indulge in our featured food, where tantalizing flavors meet exquisite
+          presentation to create a culinary experience like no other.
+        </p>
+        <div className="w-fit mx-auto">
+          <Dash />
+        </div>
+      </div>
 
       {/* CARDS */}
       <div className="flex flex-wrap justify-center gap-40 pt-8">
